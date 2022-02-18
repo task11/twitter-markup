@@ -32,6 +32,20 @@
 
 ---
 
+## Sectioning
+
+<img width="986" alt="스크린샷 2022-02-18 오후 9 19 17" src="https://user-images.githubusercontent.com/89209626/154682791-c39700e4-8ad7-4444-8d86-1bbcd5edaf45.png">
+
+---
+
+## Markup Result
+![스크린샷 2022-02-18 오후 9 26 05](https://user-images.githubusercontent.com/89209626/154682794-7160b9d2-695a-4e30-942f-fc4257be6c06.png)
+
+
+
+
+---
+
 ## 사용 기술
 
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white"/></a>
