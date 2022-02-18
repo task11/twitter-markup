@@ -1,20 +1,345 @@
-<main>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Twitter Markup</title>
+</head>
+
+<body>
   <header>
-    <h1>Home</h1>
-    <button type="button" aria-label="Timeline Options">
+    <h1>
+      <a href="#">
+        <img src="" alt="Twitter" />
+      </a>
+    </h1>
+    <nav>
+      <h1>Global Navigation</h1>
+      <ul>
+        <li>
+          <a href="#">
+            <span>Current Page</span>
+            <!-- Icon -->
+            Home
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <!-- Icon -->
+            Explore
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <strong aria-label="5 Unread Notifications">5</strong>
+            <!-- Icon -->
+            Notifications
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <!-- Icon -->
+            Messages
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <!-- Icon -->
+            Bookmarks
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <!-- Icon -->
+            Lists
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <!-- Icon -->
+            Profile
+          </a>
+        </li>
+        <li>
+          <button type="button">
+            <!-- Icon -->
+            More
+          </button>
+          <!-- DropDown Menu -->
+        </li>
+      </ul>
+      <button type="button">
+        Tweet
+      </button>
+    </nav>
+  </header>
+  <main>
+    <header>
+      <h1>Home</h1>
+      <button type="button" aria-label="Timeline Options">
+        <!-- Icon -->
+      </button>
+      <div>
+        <h2>Home shows you top Tweets first</h2>
+        <!-- Icon -->
+        <button type="button">
+          <strong>See latest Tweets instead</strong>
+          <span>you'll be switched back Home after you've been away for a while</span>
+        </button>
+        <a href="#">
+          <!-- Icon -->
+          View content preferences
+        </a>
+      </div>
+    </header>
+    <section>
+      <h1>Write a tweet</h1>
+
+      <form action="#" method="post">
+        <img src="" alt="jungman@" />
+        <textarea placeholder="What's happening?" maxlength="280"></textarea>
+        <button type="button" aria-label="Upload files">
+          <!-- Icon , JS로 처리-->
+        </button>
+        <input type="file" multiple accept="image/*, video/*" />
+        <button type="button" aria-label="Search GIFs...">
+          <!-- Icon -->
+        </button>
+        <button type="button" aria-label="Create a poll">
+          <!-- Icon -->
+        </button>
+        <button type="button" aria-label="Choose emoji">
+          <!-- Icon -->
+        </button>
+        <strong aria-label="0 out of 280 characters">
+
+        </strong>
+        <button type="button" aria-label="Add another tweet">
+          <!-- Icon -->
+        </button>
+        <button type="submit">
+          Tweet
+        </button>
+      </form>
+    </section>
+    <section>
+      <h1>Your Timeline</h1>
+      <ol>
+        <li>
+          <article>
+            <h1>Tweet</h1>
+            <header>
+              <a href="#">
+                <img src="#" alt="김정현">
+              </a>
+              <h2>
+                <a>김정현</a>
+              </h2>
+              <dl>
+                <div>
+                  <dt>Userid</dt>
+                  <dd>
+                    <a href="#">
+                      jungman@
+                    </a>
+                  </dd>
+                </div>
+                <div>
+                  <dt>Posted</dt>
+                  <dd>
+                    <a href="#">
+                      Dec 25
+                    </a>
+                  </dd>
+                </div>
+              </dl>
+              <button type="button" aria-label="Options">
+                <!-- Icon -->
+              </button>
+              <div>
+                <button type="button">
+                  <!-- Icon -->
+                  Show less often
+                </button>
+                <button type="button">
+                  <!-- Icon -->
+                  Embed Tweet
+                </button>
+                <button type="button">
+                  <!-- Icon -->
+                  Unfollow jungman@
+                </button>
+                <button type="button">
+                  <!-- Icon -->
+                  Mute jungman@
+                </button>
+                <button type="button">
+                  <!-- Icon -->
+                  Block jungman@
+                </button>
+                <button type="button">
+                  <!-- Icon -->
+                  Report Tweet
+                </button>
+              </div>
+            </header>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio blanditiis labore nihil laborum delectus
+              qui
+              reiciendis
+              ea inventore obcaecati excepturi quidem, minima itaque sint aliquam doloremque voluptatum reprehenderit
+              temporibus
+              dolor!
+              Consequuntur quibusdam et quidem adipisci ut eius sunt vel pariatur quod repellat aliquam amet ipsum
+              laudantium
+              voluptates nesciunt sit, quas possimus explicabo corrupti non libero reprehenderit? Officiis commodi
+              blanditiis
+              veniam.
+              Quo nostrum deleniti obcaecati itaque id incidunt quos sit dolorum placeat accusantium, rem similique
+              molestias
+              dolores
+              sunt, eum porro, nisi laborum ea ducimus cum cupiditate aut? Illo sequi exercitationem magnam!
+            </p>
+
+            <footer>
+              <button type="button">
+                <!-- Icon -->
+                <span class="sr-only">Tweet your reply</span>
+                <strong aria-label="3 replied">3</strong>
+              </button>
+
+              <button type="button">
+                <!-- Icon -->
+                <span class="sr-only">Retweet</span>
+                <strong aria-label="3 retweeted">3</strong>
+              </button>
+              <div>
+                <button type="button">
+                  Retweet
+                </button>
+                <button type="button">
+                  Retweet with comment
+                </button>
+              </div>
+
+              <button type="button">
+                <!-- Icon -->
+                <span class="sr-only">Like</span>
+                <strong aria-label="3 liked">3</strong>
+              </button>
+
+              <button type="button">
+                <!-- Icon -->
+                <span class="sr-only">Share</span>
+              </button>
+              <div>
+                <button type="button">
+                  Send via Direct Message
+                </button>
+                <button type="button">
+                  Add Tweet to Bookmarks
+                </button>
+                <button type="button">
+                  Copy link to Tweet
+                </button>
+              </div>
+            </footer>
+          </article>
+        </li>
+      </ol>
+    </section>
+  </main>
+  <aside>
+    <header>
+      <h1>
+        Worldwide tends
+      </h1>
+      <button type="button" aria-label="Options">
+        <!-- Icon -->
+      </button>
+    </header>
+    <ol>
+      <li>
+        <a href="#">
+          <span>1 Trendig worldwide # 김정현</span>
+          <strong lang="ko">#김정현</strong>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <span>1 Trendig worldwide # 김정현</span>
+          <strong lang="ko">#김정현</strong>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <span>1 Trendig worldwide # 김정현</span>
+          <strong lang="ko">#김정현</strong>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <span>1 Trendig worldwide # 김정현</span>
+          <strong lang="ko">#김정현</strong>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <span>1 Trendig worldwide # 김정현</span>
+          <strong lang="ko">#김정현</strong>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <span>1 Trendig worldwide # 김정현</span>
+          <strong lang="ko">#김정현</strong>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <span>1 Trendig worldwide # 김정현</span>
+          <strong lang="ko">#김정현</strong>
+        </a>
+      </li>
+    </ol>
+  </aside>
+  <footer>
+    <a href="#" target="_blank">
+      Terms
+    </a>
+    <a href="#" target="_blank">
+      Privacy policy
+    </a>
+    <a href="#" target="_blank">
+      Cookies
+    </a>
+    <a href="#" target="_blank">
+      Ads info
+    </a>
+    <button type="button">
+      More
       <!-- Icon -->
     </button>
     <div>
-      <h2>Home shows you top Tweets first</h2>
-      <!-- Icon -->
-      <button type="button">
-        <strong>See latest Tweets instead</strong>
-        <span>you'll be switched back Home after you've been away for a while</span>
-      </button>
-      <a href="#">
-        <!-- Icon -->
-        View content preferences
+      <a href="#" target="_blank">
+        About
+      </a>
+      <a href="#" target="_blank">
+        Status
+      </a>
+      <a href="#" target="_blank">
+        Businesses
+      </a>
+      <a href="#" target="_blank">
+        Developers
       </a>
     </div>
-  </header>
-</main>
+    <span>
+      © 2019 Twitter, Inc.
+    </span>
+  </footer>
+</body>
+
+</html>
